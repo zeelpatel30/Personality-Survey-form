@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Survey</title>
+    <link rel="icon" href="images.png">
+    <link rel="stylesheet" href="Survey.css">
+    
+</head>
+<body >
+    <img class="logo"src="logo.JPG">
+    <h1 class="head"><b><u>Personality Survey</u></b></h1>
+    <div style="color:red; font-size: 50x; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 10px;">Note:- Age should be 15 & above.</div>
+    <fieldset style="background-color: beige;">
+       
+    <legend id="head">Background Details</legend>
+    <form>
+        <div class="margin">
+        <label for="name">Name: </label>
+        <input name="name" type="text" placeholder="Enter your Name" required></div>
+        <div class="margin">
+        <label for="email">E-Mail: </label>
+        <input name="Email" type="email" placeholder="xyz12@abc.com" required></div>
+        <div class="margin"> 
+        <label for="age">Age:</label>
+        <input name="name" type="number" placeholder="Enter your age" min="15" max="100" required></div>
+        <div class="margin"> 
+        
+            <label for="Gender">Gender:</label>
+            <input name="select" type="radio" value="Male">Male
+            <input type="radio" name="select" value="Female">Female
+            <input type="radio" name="select" value="Other">Other
+        </div>
+        <div>
+            <lable for="lang">Languages:</lable>
+            <input type="checkbox" value="English" id="lang">English<br>
+        <div class="Lang"> <input type="checkbox" value="Hindi" id="lang">Hindi<br>
+            <input type="checkbox" value="Gujarati" id="lang">Gujarati<br><div>
+        </div>
+    </form>
+    </fieldset>
+    <fieldset style="background-color: beige;">
+        <form class="margin1" oninput="O1.value = parseInt(R1.value)">
+            I am Hard-Working:<input type="range" id="R1" min="0" max="100" step="5" />
+            <output for="R1" id="O1"></output>
+        </form>
+        
+        <form class="margin1" oninput="O2.value = parseInt(R2.value)">
+            I try to Better than everyone else:<input type="range" id="R2" min="0" max="100" step="5" />
+            <output for="R2" id="O2"></output>
+        </form>
+        <form>
+            <div class="margin1"> <lable for="Hobbies">Hobbies: </lable>
+            <input type="text" value="hobbies" placeholder="eg.Sports"></div>
+            <div><lable for="hobbies">Your Hobby helps to keep you Happy & Fresh</lable>
+                <select id="Hobbies" name="option" size="0">
+                    <option value="Yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="sometime">Sometimes</option>
+                    
+                  </select>
+                </div>
+
+        </form>
+
+        
+    </fieldset>
+    
+    <fieldset style="background-color: beige;">
+    <center><div class="que">
+        <lable for="Calm">You Stay Calm, Even under lot a pressure</lable><br>
+         <span>Agree</span>
+         <input class="onefive" type="radio" Name="calm">
+         <input class="twofour" type="radio" Name="calm"> 
+         <input type="radio"  Name="calm"> 
+         <input class="twofour"  type="radio" Name="calm"> 
+         <input class="onefive" type="radio" Name="calm"> Disagree</div></center>
+
+        <hr> <center><div class="que">
+            <lable for="Calm">You spend a lot of your free time exploring various 
+                random topics that pique your interest.</lable><br>
+             <span>Agree</span>
+             <input class="onefive" type="radio" Name="q2">
+             <input class="twofour" type="radio" Name="q2"> 
+             <input type="radio"  Name="q2"> 
+             <input class="twofour"  type="radio" Name="q2"> 
+             <input class="onefive" type="radio" Name="q2"> Disagree</div></center>
+
+            <hr> <center><div class="que">
+                <lable for="Calm">You often make a backup plan for a backup plan.</lable><br>
+                 <span>Agree</span>
+                 <input class="onefive" type="radio" Name="q3">
+                 <input class="twofour" type="radio" Name="q3"> 
+                 <input type="radio"  Name="q3"> 
+                 <input class="twofour"  type="radio" Name="q3"> 
+                 <input class="onefive" type="radio" Name="q3"> Disagree</div></center>
+                
+                 <hr><center><div class="que">
+                    <lable for="Calm">Seeing other people cry can easily make you feel 
+                        like you want to cry too.</lable><br>
+                     <span>Agree</span>
+                     <input class="onefive" type="radio" Name="q4">
+                     <input class="twofour" type="radio" Name="q4"> 
+                     <input type="radio"  Name="q4"> 
+                     <input class="twofour"  type="radio" Name="q4"> 
+                     <input class="onefive" type="radio" Name="q4"> Disagree</div></center>
+
+       
+    </fieldset>
+    <div class="btn">
+                <button style="background-color:yellow ; margin-top: 10px; margin-right: 10px;
+                height: 35px; width: 55px; border-style:outset;" type ="button">Reset!!</button>
+                <button style="background-color:greenyellow; margin-top: 10px; 
+                height: 35px; width: 60px; border-style:outset;" type="button">Submit!!</button>
+
+    
+    </div>
+
+    <div> About Us| Privacy Policy| Contact Us|FAQ<br>
+          Copyright 2023|Giri|Terms & Conditions</div>
+
+</body>
+</html>

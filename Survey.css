@@ -1,0 +1,43 @@
+.logo{
+    
+    width: 250px;
+   float: inline-start;
+   margin-right:25%;
+   z-index: 1;
+}
+.head{
+    position: relative;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    font-family:Papyrus;
+    
+}
+
+.btn{
+    margin-bottom: 30px;
+}
+
+#head {
+    font-size: 30px;
+}
+.margin{
+     margin-bottom: 20px;
+}
+.Lang{
+    margin-left: 78px;
+}
+.margin1{
+    margin-bottom: 20px;
+}
+input[type="radio"].onefive{
+    width: 30px;
+    height: 30px;
+}
+input[type="radio"].twofour{
+    width: 20px;
+    height: 20px;
+}
+.que{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
